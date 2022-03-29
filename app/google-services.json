@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "164320463126",
+    "project_id": "memory-game-19a15",
+    "storage_bucket": "memory-game-19a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164320463126:android:30ba5940427cf874516837",
+        "android_client_info": {
+          "package_name": "com.example.memorygame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164320463126-ifmu8pn1b2k7u8e8knbt0ftnubo27n5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIAstTvjvmW5Uej3XeKCW9UCB3OoKUvZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164320463126-ifmu8pn1b2k7u8e8knbt0ftnubo27n5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
