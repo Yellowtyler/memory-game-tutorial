@@ -15,9 +15,11 @@
         <entry key="..\:/Projects/MemoryGame/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Projects/MemoryGame/app/src/main/res/layout/card_image.xml" value="0.1" />
         <entry key="..\:/Projects/MemoryGame/app/src/main/res/layout/dialog_board_size.xml" value="0.1" />
+        <entry key="..\:/Projects/MemoryGame/app/src/main/res/layout/dialog_download_board.xml" value="0.1641337386018237" />
         <entry key="..\:/Projects/MemoryGame/app/src/main/res/layout/memory_card.xml" value="0.5924170616113744" />
-        <entry key="..\:/Projects/MemoryGame/app/src/main/res/menu/main_menu.xml" value="0.17054263565891473" />
+        <entry key="..\:/Projects/MemoryGame/app/src/main/res/menu/main_menu.xml" value="0.33" />
         <entry key="..\:/Projects/MemoryGame/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1265" />
+        <entry key="..\:/Projects/MemoryGame/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

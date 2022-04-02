@@ -4,12 +4,23 @@ import com.example.memorygame.model.BoardSize
 import com.example.memorygame.model.MemoryCard
 import com.example.memorygame.utils.DEFAULT_ICONS
 
-class MemoryGame(private val boardSize: BoardSize) {
+class MemoryGame(
+    private val boardSize: BoardSize,
+    customImages: List<String>?
+    ) {
+
     private var position1: Int? = null
     private var position2: Int? = null
     private var foundPairs: Int = 0
     private var numMoves: Int = 0
-    val memoryCards: List<MemoryCard>
+
+    val memoryCards: List<MemoryCard> = if (customImages == null) {
+        val chosenImages = DEFAULT_ICONS.shuffled().take(boardSize.getNumPairs())
+        (chosenImages + chosenImages).shuffled().map{MemoryCard(it)}
+    } else {
+        (customImages + customImages).shuffled().map{MemoryCard(it.hashCode(), it)}
+    }
+
 
     fun flipCard(position: Int) {
         if (!memoryCards[position].isFaceUp && !memoryCards[position].isMatched) {
@@ -48,10 +59,5 @@ class MemoryGame(private val boardSize: BoardSize) {
 
     fun getNumMoves(): Int {
         return numMoves
-    }
-
-    init {
-        val chosenImages = DEFAULT_ICONS.shuffled().take(boardSize.getNumPairs())
-        memoryCards = (chosenImages + chosenImages).shuffled().map{MemoryCard(it)}
     }
 }
